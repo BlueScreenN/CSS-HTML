@@ -7,7 +7,57 @@
 </head>
 <body>
     <form action="Register.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="surname">Surname</label>
+            <input type="text" id="surname">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <p>What is your favorite programing language?</p>
 
+            <input type="radio" id="html" name="ProgramingLanguage">
+            <label for="html">HTML</label>
+
+            <input type="radio" id="CSS" name="ProgramingLanguage">
+            <label for="CSS">CSS</label>
+
+            <input type="radio" id="Javascript" name="ProgramingLanguage">
+            <label for="Javascript">Javascript</label>
+        </div>
+        <div>
+            <label for="intro">Explain yourself</label>
+            <textarea id="intro"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="html2">
+            <label for="html2">HTML</label>
+
+            <input type="checkbox" id="CSS2">
+            <label for="CSS2">CSS</label>
+
+            <input type="checkbox" id="Javascript2">
+            <label for="Javascript2">Javascript</label>
+        </div>
+        <div>
+            <label for="cities"></label>
+            <select id="cities">
+                <option value="19">Çorum</option>
+                <option value="06">Ankara</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <button type="submit">Save</button>
+        <button type="reset">Reset</button>
     </form>
 </body>
 </html>
